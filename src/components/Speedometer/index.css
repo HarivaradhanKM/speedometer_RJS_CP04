@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #07080c;
+  height: 100vh;
+  width: auto;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font: 50px italic, Roboto;
+  color: #fff;
+}
+
+.speedometer {
+  height: 40vh;
+  width: 40vw;
+}
+
+.speed {
+  font: 35px italic, Roboto;
+  color: #fff;
+  margin: 25px;
+}
+
+.description {
+  font: 20px italic, Roboto;
+  color: #cbd5e1;
+  margin-bottom: 45px;
+}
+
+.accButton {
+  color: #fff;
+  background-color: #0b69ff;
+  font: 15px italic, Roboto;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  margin-right: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.brakeButton {
+  color: #fff;
+  background-color: #07080c;
+  font: 14px italic, Roboto;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  padding: 8px 16px;
+  margin-left: 20px;
+  outline: none;
+  cursor: pointer;
+}
